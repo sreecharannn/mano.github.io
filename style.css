@@ -1,0 +1,528 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Friandise SwashDemo", sans-serif;
+}
+
+@import url(//db.onlinewebfonts.com/c/5706ec7f018c2c70e69cf6f21567fb7c?family=Friandise+NormalDemo);
+
+@font-face {font-family: "Friandise NormalDemo"; src: url("//db.onlinewebfonts.com/t/5706ec7f018c2c70e69cf6f21567fb7c.eot"); src: url("//db.onlinewebfonts.com/t/5706ec7f018c2c70e69cf6f21567fb7c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5706ec7f018c2c70e69cf6f21567fb7c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5706ec7f018c2c70e69cf6f21567fb7c.woff") format("woff"), url("//db.onlinewebfonts.com/t/5706ec7f018c2c70e69cf6f21567fb7c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5706ec7f018c2c70e69cf6f21567fb7c.svg#Friandise NormalDemo") format("svg"); }
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.sec1 {
+  height: 100vh; 
+  
+  
+  position: relative;
+
+}
+.sec1 video {
+  width: 100%;
+  /* top: -10vh; */
+  position: absolute;
+  pointer-events: none;
+  z-index:1;
+}
+
+
+
+.sec2 {
+  height: 100vh; 
+  
+  position: relative;
+  
+
+}
+.sec2 video {
+  width: 100%;
+  /* top: -10vh; */
+  position: absolute;
+  pointer-events: none;
+ 
+}
+
+
+/* Override UGG site */
+.sec3 #main {
+  width: 100%;
+  padding: 0;
+}
+.sec3 .content-asset p {
+  margin: 0 auto;
+}
+.sec3 .breadcrumb {
+  display: none;
+}
+
+/* Helpers */
+/**************************/
+.sec3 .margin-top-10 {
+  padding-top: 10px;
+}
+.sec3 .margin-bot-10 {
+  padding-bottom: 10px;
+}
+
+/* Typography */
+/**************************/
+.sec3 #parallax-world-of-ugg h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+.sec3 #parallax-world-of-ugg h2 {
+  font-family: "Friandise SwashDemo", sans-serif;
+  font-size: 70px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 10;
+  opacity: 0.9;
+}
+.sec3 #parallax-world-of-ugg h3 {
+  font-family: "Friandise SwashDemo", sans-serif;
+  font-size: 14px;
+  line-height: 0;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
+}
+.sec3 #parallax-world-of-ugg p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.sec3 .first-character {
+  font-weight: 400;
+  float: left;
+  font-size: 84px;
+  line-height: 64px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: "Friandise SwashDemo", sans-serif;
+}
+
+.sec3 .sc {
+  color: #3b8595;
+}
+.sec3 .ny {
+  color: #3d3c3a;
+}
+.sec3 .atw {
+  color: #c48660;
+}
+
+/* Section - Title */
+/**************************/
+.sec3 #parallax-world-of-ugg .title {
+  background: white;
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+.sec3 #parallax-world-of-ugg .title h1 {
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+/* Section - Block */
+/**************************/
+.sec3 #parallax-world-of-ugg .block {
+  background: white;
+  padding: 60px;
+  width: 820px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.sec3 #parallax-world-of-ugg .block-gray {
+  background: #f2f2f2;
+  padding: 60px;
+}
+.sec3 #parallax-world-of-ugg .section-overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+}
+
+/* Section - Parallax */
+/**************************/
+.sec3 #parallax-world-of-ugg .parallax-one {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(matrixx2_page-0001.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.sec3 #parallax-world-of-ugg .parallax-two {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(matrixx1_page-0001.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.sec3 #parallax-world-of-ugg .parallax-three {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(matrixx3_page-0001.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Extras */
+/**************************/
+.sec3 #parallax-world-of-ugg .line-break {
+  border-bottom: 1px solid black;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {
+    padding: 40px;
+    width: 620px;
+  }
+}
+ @media screen and (max-width: 767px) {
+  .sec3 #parallax-world-of-ugg .block {
+    padding: 30px;
+    width: 420px;
+  }
+  .sec3 #parallax-world-of-ugg h2 {
+    font-size: 30px;
+  }
+  .sec3 #parallax-world-of-ugg .block {
+    padding: 30px;
+  }
+  .sec3 #parallax-world-of-ugg .parallax-one,
+  .sec3 #parallax-world-of-ugg .parallax-two,
+  .sec3 #parallax-world-of-ugg .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .sec3 #parallax-world-of-ugg .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
+}
+
+.sec4 .container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sec4 .card {
+  height: 600px;
+  width: 400px;
+  background: #808080;
+  border-radius:10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sec4 .card0 {
+  background: url("Mano despencer 13935833 (1).jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec4 .card0:hover {
+  background: url("Mano despencer 13935833 (1).jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec4 .card0:hover h2 {
+  opacity: 1;
+}
+.sec4 .card0:hover .fa {
+  opacity: 1;
+}
+.sec4 .card1 {
+  background: url("imresizer-1682969395210.jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec4 .card1:hover {
+  background: url("imresizer-1682969395210.jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec4 .card1:hover h2 {
+  opacity: 1;
+}
+.sec4 .card1:hover .fa {
+  opacity: 1;
+}
+.sec4 .card2 {
+  background: url("imresizer-1682969501920.jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec4 .card2:hover {
+  background: url("imresizer-1682969501920.jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec4 .card2:hover h2 {
+  opacity: 1;
+}
+.sec4 .card2:hover .fa {
+  opacity: 1;
+}
+.sec4 h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.sec4 .fa {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.sec4 .icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sec5 .container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sec5 .card {
+  height: 600px;
+  width: 400px;
+  background: #808080;
+  border-radius:10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sec5 .card0 {
+  background: url("imresizer-1678303342860 (2).jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec5 .card0:hover {
+  background: url("imresizer-1678303342860 (2).jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec5 .card0:hover h2 {
+  opacity: 1;
+}
+.sec5 .card0:hover .fa {
+  opacity: 1;
+}
+.sec5 .card1 {
+  background: url("Mano despencer 139359178.jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec5 .card1:hover {
+  background: url("Mano despencer 139359178.jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec5 .card1:hover h2 {
+  opacity: 1;
+}
+.sec5 .card1:hover .fa {
+  opacity: 1;
+}
+.sec5 .card2 {
+  background: url("Mano despencer 13935966 (2).jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec5 .card2:hover {
+  background: url("Mano despencer 13935966 (2).jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec5 .card2:hover h2 {
+  opacity: 1;
+}
+.sec5 .card2:hover .fa {
+  opacity: 1;
+}
+.sec5 h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.sec5 .fa {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.sec5 .icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sec6 .container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sec6 .card {
+  height: 600px;
+  width: 400px;
+  background: #808080;
+  border-radius:10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.sec6 .card0 {
+  background: url("imresizer-1677264425509 (1).jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec6 .card0:hover {
+  background: url("imresizer-1677264425509 (1).jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec6 .card0:hover h2 {
+  opacity: 1;
+}
+.sec6 .card0:hover .fa {
+  opacity: 1;
+}
+.sec6 .card1 {
+  background: url("imresizer-1677264257763 (1).jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec6 .card1:hover {
+  background: url("imresizer-1677264257763 (1).jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec6 .card1:hover h2 {
+  opacity: 1;
+}
+.sec6 .card1:hover .fa {
+  opacity: 1;
+}
+.sec6 .card2 {
+  background: url("imresizer-1677264357164 (1).jpg") center center no-repeat;
+  background-size: 500px;
+}
+.sec6 .card2:hover {
+  background: url("imresizer-1677264357164 (1).jpg") left center no-repeat;
+  background-size: 1000px;
+}
+.sec6 .card2:hover h2 {
+  opacity: 1;
+}
+.sec6 .card2:hover .fa {
+  opacity: 1;
+}
+.sec6 h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.sec6 .fa {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.sec6 .icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
